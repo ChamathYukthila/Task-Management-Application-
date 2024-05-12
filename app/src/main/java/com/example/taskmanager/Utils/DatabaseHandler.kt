@@ -66,7 +66,7 @@ class DatabaseHandler(context: Context) :
         } finally {
             db.endTransaction()
             cur?.close()
-        }
+        }7
         return taskList
     }
 
